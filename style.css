@@ -1,3 +1,88 @@
-h1{
-    color: darkblue;
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+.btn{
+    padding: 15px 20px ;
+    color: #fff;
+    background-color: crimson;
+    margin-top: 20px;
+    border-radius: 7px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.section-title{
+    margin-top: 80px;
+    margin-bottom: 40px;
+    text-align: center;
+
+}
+.section-title h3{
+    font-size: 35px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.section-title p{
+    color: #888;
+    font-size: 20px;
+}
+
+/* banner part start here  */
+.banner{
+    background-image: url("img/donation9.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0);
+}
+.banner-text{
+    height: 100%;
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+.banner-text h1{
+    font-size: 46px;
+    font-family: 'Poppins', sans-serif;
+}
+/* banner part end here  */
+
+
+/* donete part start here  */
+
+.amount {
+    display: flex;
+    justify-content: center;
+}
+.amount li{
+    list-style: none;
+    padding: 30px 25px;
+    background-color: rgb(223, 223, 223);
+    margin: 7px;
+    border-radius: 7px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #6e6c6c;
+}
+
+.amount li:nth-child(2) {
+    border: 2px solid crimson;
+    color: crimson;
+}
+
+
+/* donete part end here  */
